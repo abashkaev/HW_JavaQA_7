@@ -14,5 +14,5 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - name: Bild with Maven
-        run: mvn -B -e verefy
+      - name: Build with Maven
+        run: mvn -B -e verify
